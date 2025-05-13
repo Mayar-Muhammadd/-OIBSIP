@@ -175,7 +175,7 @@ plt.xticks(rotation=0)
 plt.tight_layout()
 plt.show()
 
-# average spending by age group (optional)
+# average spending by age group
 df['Age Group'] = pd.cut(df['Age'], bins=[0, 18, 25, 35, 50, 100],
                          labels=['<18', '18-25', '26-35', '36-50', '50+'])
 age_group_avg = df.groupby('Age Group')['Total Amount'].mean()
