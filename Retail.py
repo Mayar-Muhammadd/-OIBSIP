@@ -270,5 +270,63 @@ sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f', cbar=True)
 plt.title('Correlation Heatmap')
 plt.tight_layout()
 plt.show()
+#6)Recommendations: Provide actionable recommendations based on the EDA.
+#based on the **exploratory data analysis (EDA) of the dataset:
+
+#1)target age groups with higher spending
+
+#from the bar chart showing "Average Purchase Amount by Age Group", customers in the "<18" age group tend to spend more than other age groups.
+#recommendation:
+
+#marketing targeting: Focus marketing campaigns, offers, and promotions specifically towards customers aged<18 as they exhibit the highest average spending.
+#product Development: Consider launching new products that appeal to this age. ex: clothing and beauty 
+#2)gender specific marketing strategiy 
+
+#the gender distribution pie chart shows a significant proportion of customers in the dataset, with slightly more females than males.
+#recommendation:
+
+#personalized marketing: create gender-targeted campaigns or product lines. For example, beauty and clothing category
+#customer loyalty programs: build programs that specifically address gender preferences.
+
+#3)focus on monthly sales trends
+
+#the monthly sales trend line plot showed certain months with higher sales like may or lower sales like september 
+#recommendation:
+#promotions during low sales months:consider launching special promotions, discounts, or seasonal campaigns during those periods to boost sales.
+#stock management: based on the sales trend, optimize inventory to ensure high-demand products are always available during peak months.
+
+
+#4)Customer Segmentation for Personalized Offers
+
+#the dataset contains valuable customer information like age, gender
+#recommendation:
+#segmentation: segment customers based on their purchasing behavior, age, gender and design personalized offers that helps specifically to these segments.
+#loyalty Programs: develop loyalty programs tailored to frequent buyers, incentivizing repeat purchases with discounts, special access, or rewards points.
+
+#5)optimize pricing strategy
+
+#The price per unit varies across different product categories and age groups.
+#recommendation:
+
+#dynamic Pricing: implement a dynamic pricing strategy where the price is adjusted based on demand, competitor pricing, and customer segments.
+#promotions and discounts: offer time-limited discounts to push sales for products that have high inventory but low demand.
+
+#6)Improve Customer Experience with Data
+
+#Observation:the dataset provides insights into customer behavior, like their spending patterns over time.(but the data i worked with has only unique customers with unique ids)
+#recommendation:
+
+  #customer Journey Mapping: use this data to map out the customer journey and identify touchpoints where customers drop off. This could help improve the website, user interface, or checkout process.
+  #post-Purchase Engagement: consider sending follow-up emails or offering incentives for repeat purchases after a customer buys something.
+
+
+#summary of recommendations:
+
+#1. target marketing efforts towards the <18 age group to capitalize on higher spending.
+#2. develop gender-targeted campaigns for a personalized shopping experience.
+#3. launch promotions during months with lower sales to boost engagement.
+#4. segment customers for personalized offers based on demographics and behavior.
+#5. implement dynamic pricing strategies based on demand and customer segments.
+#6. improve customer experience using insights from the data to improve the buying process and engage customers post-purchase.
 
 
